@@ -28,7 +28,7 @@ if (!defined('DS')) {
 /**
  * The full path to the directory which holds "src", WITHOUT a trailing DS.
  */
-define('ROOT' , dirname(__FILE__));
+define('ROOT' , dirname(__DIR__));
 
 /**
  * The actual directory name for the application directory. Normally
