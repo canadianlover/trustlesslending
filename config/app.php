@@ -215,9 +215,9 @@ return [
              * the following line and set the port accordingly
              */
             //'port' => 'nonstandard_port_number',
-            'username' => 'adminUhVC24V',
-            'password' => '8AAIZZQ2XRF8',
-            'database' => 'trustlesslending',
+            'username' => 'adminu3mnypM',
+            'password' => 'nvy834_PBzh4',
+            'database' => 'cake',
             'encoding' => 'utf8',
             'timezone' => 'UTC',
             'cacheMetadata' => true,
