@@ -28,7 +28,7 @@ if (!defined('DS')) {
 /**
  * The full path to the directory which holds "src", WITHOUT a trailing DS.
  */
-define('ROOT', '/var/lib/openshift/562412800c1e66889b0000ca/app-root/runtime/repo');
+define('ROOT' , dirname(__FILE__));
 
 /**
  * The actual directory name for the application directory. Normally
