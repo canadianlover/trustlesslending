@@ -1,0 +1,21 @@
+2015-09-26 19:17:09 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'lend_coins.users_deposita' doesn't exist
+Stack Trace:
+#0 /Users/Account1/LendCoins/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(95): Cake\Database\Schema\Collection->_reflect('Column', 'users_deposita', Array, Object(Cake\Database\Schema\Table))
+#1 /Users/Account1/LendCoins/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(64): Cake\Database\Schema\Collection->describe('users_deposita', Array)
+#2 /Users/Account1/LendCoins/vendor/cakephp/cakephp/src/ORM/Table.php(423): Cake\Database\Schema\CachedCollection->describe('users_deposita')
+#3 /Users/Account1/LendCoins/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(324): Cake\ORM\Table->schema()
+#4 /Users/Account1/LendCoins/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(204): Bake\Shell\Task\ModelTask->findHasMany(Object(Cake\ORM\Table), Array)
+#5 /Users/Account1/LendCoins/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(110): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /Users/Account1/LendCoins/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(96): Bake\Shell\Task\ModelTask->bake('Collaterial')
+#7 /Users/Account1/LendCoins/vendor/cakephp/bake/src/Shell/BakeShell.php(250): Bake\Shell\Task\ModelTask->main('Collaterial')
+#8 /Users/Account1/LendCoins/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(50): Bake\Shell\BakeShell->Bake\Shell\{closure}('collaterial', 0)
+#9 /Users/Account1/LendCoins/vendor/cakephp/bake/src/Shell/BakeShell.php(253): Cake\Collection\Collection->each(Object(Closure))
+#10 [internal function]: Bake\Shell\BakeShell->all('collaterial')
+#11 /Users/Account1/LendCoins/vendor/cakephp/cakephp/src/Console/Shell.php(441): call_user_func_array(Array, Array)
+#12 /Users/Account1/LendCoins/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(212): Cake\Console\Shell->runCommand(Array, true, Array)
+#13 /Users/Account1/LendCoins/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#14 /Users/Account1/LendCoins/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#15 /Users/Account1/LendCoins/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#16 {main}
+
+
