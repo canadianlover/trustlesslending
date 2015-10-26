@@ -125,6 +125,10 @@ public function login()
 {
     $this->Auth->allow(['add']);
 }
+public function beforeFilter(\Cake\Event\Event $event)
+{
+    $this->Auth->allow(['add']);
+}
 
 	
 }

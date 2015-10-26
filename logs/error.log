@@ -2652,3 +2652,20 @@ Stack Trace:
 #8 {main}
 
 
+2015-10-26 02:33:08 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/users/add" could not be found.
+Exception Attributes: array (
+  'url' => '/users/add',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /Users/Account1/lcgit/trustlesslending/vendor/cakephp/cakephp/src/Routing/Router.php(338): Cake\Routing\RouteCollection->parse('/users/add')
+#1 /Users/Account1/lcgit/trustlesslending/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php(53): Cake\Routing\Router::parse('users/add')
+#2 /Users/Account1/lcgit/trustlesslending/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\RoutingFilter->beforeDispatch(Object(Cake\Event\Event))
+#3 /Users/Account1/lcgit/trustlesslending/vendor/cakephp/cakephp/src/Event/EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 /Users/Account1/lcgit/trustlesslending/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#5 /Users/Account1/lcgit/trustlesslending/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#6 /Users/Account1/lcgit/trustlesslending/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#7 /Users/Account1/lcgit/trustlesslending/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
