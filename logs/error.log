@@ -5678,3 +5678,83 @@ Stack Trace:
 #2 {main}
 
 
+2015-10-31 22:04:42 Error: Fatal Error (4): parse error in [/Users/Account1/lcgit/trustlesslending/src/Template/Pages/index.ctp, line 17]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-31 22:04:46 Error: [Cake\Error\FatalErrorException] parse error
+Request URL: /
+Stack Trace:
+#0 /Users/Account1/lcgit/trustlesslending/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'parse error', '/Users/Account1...', 17)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-31 22:07:47 Error: Fatal Error (4): parse error in [/Users/Account1/lcgit/trustlesslending/src/Template/Pages/index.ctp, line 17]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-31 22:07:49 Error: [Cake\Error\FatalErrorException] parse error
+Request URL: /
+Stack Trace:
+#0 /Users/Account1/lcgit/trustlesslending/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'parse error', '/Users/Account1...', 17)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-31 22:11:32 Error: Fatal Error (4): parse error in [/Users/Account1/lcgit/trustlesslending/src/Template/Pages/index.ctp, line 17]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-31 22:11:39 Error: [Cake\Error\FatalErrorException] parse error
+Request URL: /
+Stack Trace:
+#0 /Users/Account1/lcgit/trustlesslending/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'parse error', '/Users/Account1...', 17)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-31 22:14:36 Error: Fatal Error (1): Call to a member function read() on a non-object in [/Users/Account1/lcgit/trustlesslending/src/Template/Pages/index.ctp, line 4]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-31 22:14:41 Error: [Cake\Error\FatalErrorException] Call to a member function read() on a non-object
+Request URL: /
+Stack Trace:
+#0 /Users/Account1/lcgit/trustlesslending/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', '/Users/Account1...', 4)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-31 22:19:00 Error: Fatal Error (1): Call to a member function read() on a non-object in [/Users/Account1/lcgit/trustlesslending/src/Template/Pages/index.ctp, line 4]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-31 22:19:04 Error: [Cake\Error\FatalErrorException] Call to a member function read() on a non-object
+Request URL: /
+Stack Trace:
+#0 /Users/Account1/lcgit/trustlesslending/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', '/Users/Account1...', 4)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+

@@ -39,19 +39,23 @@
         <table cellpadding="0" cellspacing="0">
             <tr>
                 <th><?= __('Id') ?></th>
+                <th><?= __('Username') ?></th>
                 <th><?= __('Email') ?></th>
                 <th><?= __('Password') ?></th>
                 <th><?= __('Created') ?></th>
                 <th><?= __('Modified') ?></th>
+                <th><?= __('Role') ?></th>
                 <th class="actions"><?= __('Actions') ?></th>
             </tr>
             <?php foreach ($deposit->users as $users): ?>
             <tr>
                 <td><?= h($users->id) ?></td>
+                <td><?= h($users->username) ?></td>
                 <td><?= h($users->email) ?></td>
                 <td><?= h($users->password) ?></td>
                 <td><?= h($users->created) ?></td>
                 <td><?= h($users->modified) ?></td>
+                <td><?= h($users->role) ?></td>
                 <td class="actions">
                     <?= $this->Html->link(__('View'), ['controller' => 'Users', 'action' => 'view', $users->id]) ?>
 

@@ -131,5 +131,10 @@ public function beforeFilter(\Cake\Event\Event $event)
     $this->Auth->allow(['add']);
 }
 
-	
+	public function isAuthorized($user) {
+		if(isset($user['role']) && $user['role'] == 'admin') {
+			return true;
+		}
+		
+	}
 }

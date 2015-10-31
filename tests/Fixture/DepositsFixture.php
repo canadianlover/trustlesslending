@@ -46,8 +46,8 @@ class DepositsFixture extends TestFixture
             'id' => 1,
             'user_id' => 1,
             'amount' => 1,
-            'date' => '2015-09-26 19:20:16',
-            'repay_date' => '2015-09-26 19:20:16'
+            'date' => '2015-10-31 22:48:08',
+            'repay_date' => '2015-10-31 22:48:08'
         ],
     ];
 }
