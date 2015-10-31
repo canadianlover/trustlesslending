@@ -19,3 +19,21 @@ Stack Trace:
 #16 {main}
 
 
+2015-10-31 21:26:07 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Server
+
+;
+" could not be found.
+Exception Attributes: array (
+  'class' => 'Server
+
+;
+',
+)
+Stack Trace:
+#0 /Users/Account1/lcgit/trustlesslending/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(209): Cake\Console\ShellDispatcher->findShell('server\n\n;\n')
+#1 /Users/Account1/lcgit/trustlesslending/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 /Users/Account1/lcgit/trustlesslending/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 /Users/Account1/lcgit/trustlesslending/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+

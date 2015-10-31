@@ -1,7 +1,7 @@
 <nav class="large-3 medium-4 columns" id="actions-sidebar">
     <ul class="side-nav">
 	<li class="heading"><?= __('Actions') ?></li>
-	<?php if($this->Session->read('Auth.User') { ?>
+	<?php if($this->Session->read('Auth.User')) { ?>
 	<li><?= $this->Html->link(__('View unfunded loans'), ['controller' => 'Loans', 'action' => 'index']) ?></li>
 	<li><?= $this->Html->link(__('View funded loans'), ['controller', 'Loans' 'action' => 'index', true]) ?></li>
 	<? php } else { ?>

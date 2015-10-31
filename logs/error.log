@@ -5662,3 +5662,19 @@ Stack Trace:
 #2 {main}
 
 
+2015-10-31 21:26:25 Error: Fatal Error (4): parse error in [/Users/Account1/lcgit/trustlesslending/src/Template/Pages/index.ctp, line 4]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-31 21:26:29 Error: [Cake\Error\FatalErrorException] parse error
+Request URL: /
+Stack Trace:
+#0 /Users/Account1/lcgit/trustlesslending/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'parse error', '/Users/Account1...', 4)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+

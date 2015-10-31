@@ -6,6 +6,7 @@
         <li><?= $this->Html->link(__('New User'), ['controller' => 'Users', 'action' => 'add']) ?></li>
         <li><?= $this->Html->link(__('List Collaterial'), ['controller' => 'Collaterial', 'action' => 'index']) ?></li>
         <li><?= $this->Html->link(__('New Collaterial'), ['controller' => 'Collaterial', 'action' => 'add']) ?></li>
+		<li><?= $this->Html->link(__('Logout'), ['controller' => 'Users', 'action' => 'logout'] ?></li>
     </ul>
 </nav>
 <h3>Your Loans</h3>
