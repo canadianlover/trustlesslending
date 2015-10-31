@@ -33,18 +33,14 @@ class CollaterialTable extends Table
 
         $this->belongsTo('Loans', [
             'foreignKey' => 'id',
-            'joinType' => 'INNER'
+            'joinType' => 'INNER',
+			
         ]);
 		$this->belongsTo('Users', [
 			'foreign_key' => 'id',
-			'joinType' => 'INMER'
+			'joinType' => 'INNER'
 			]);
 		
-        $this->belongsToMany('Loans', [
-            'foreignKey' => 'collaterial_id',
-            'targetForeignKey' => 'loan_id',
-            'joinTable' => 'loans_collaterial'
-        ]);
 	
     }
 
@@ -88,4 +84,7 @@ class CollaterialTable extends Table
         $rules->add($rules->existsIn(['loan_id'], 'Loans'));
         return $rules;
     }
+	public function isOwnedBy($collaterialId, $UserId) {
+		return $this->exists(['id' => $collaterialId, 'user_id' => $userId]);
+	}
 }

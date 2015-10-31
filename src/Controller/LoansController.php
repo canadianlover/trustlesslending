@@ -17,13 +17,27 @@ class LoansController extends AppController
      *
      * @return void
      */
-    public function index()
-    {
+    public function index($funded = true)
+    { 
+		
         $this->paginate = [
-			'conditions' => [
-				'loans.lendee_id' => $this->Auth->user('id')
-				]
-        ];
+		    'recursive' => -1,
+			'conditions' => 'loans.lendee_id ='. $this->Auth->user('id'),
+			'fields' => ['loans.amount', 'loans.lendee_id', 'loans.id', 'collaterial.collaterial'],
+			'contain' => ['Collaterial']
+			   
+			 ]
+		;
+		if($funded)
+		// if funded is set in URL, use these options for fields else, leave out
+			{
+				$this->paginate['fields'][] = 'users.username';
+				$this->paginate['contain'][] = 'Users';
+				$this->set('message', 'Below is a list of the loans you have taken out using this website, listing the lender, as well as the collaterial. Payment is due at the expected date, or your lender has the right to sell your collaterial. If you have not provided collaterial, failure to pay your loan could result in your debt being sold to another user or third-party in your area.');
+				
+			} else {
+				$this->set('message', 'Below is a list of loans that you have requested and still needing to be funded. Loan funding time depends on how liquidable your collaterial is, and based on your lending history. If you did not provide a collaterial, your loan request will be bidded on, which will determine the inteerest you will have to pay. At least 5 investors must bid on an unsecured loan');
+			}
 		$loans = $this->paginate($this->Loans);
         $this->set(compact('loans'));
         $this->set('_serialize', ['loans']);
@@ -37,10 +51,8 @@ class LoansController extends AppController
      * @throws \Cake\Network\Exception\NotFoundException When record not found.
      */
     public function view($id = null)
-    {
-        $loan = $this->Loans->get($id, [
-            'contain' => ['Users', 'Lendees', 'Collaterials', 'Collaterial']
-        ]);
+    { 
+        
         $this->set('loan', $loan);
         $this->set('_serialize', ['loan']);
     }

@@ -46,6 +46,7 @@ class UsersController extends AppController
     public function add()
     {
         $user = $this->Users->newEntity();
+		$user->role = "User";
         if ($this->request->is('post')) {
             $user = $this->Users->patchEntity($user, $this->request->data);
             if ($this->Users->save($user)) {
@@ -113,7 +114,7 @@ public function login()
 					
 			 if($user) { // sucessful login
 			 $this->Auth->setUser($user);
-			 return $this->redirect($this->Auth->redirectUrl());
+			 return $this->redirect(['Controller' => 'Loans', 'action' => 'index']);
 			 }
 			 return $this->Flash->error('Your username or password is incorrect');
 			 
@@ -121,7 +122,11 @@ public function login()
 				
 	
 	}
-	public function beforeFilter(\Cake\Event\Event $event)
+	public function logout() {
+		$this->Flash->succeess('You are now logged out');
+		return $this->redirect($this->Auth->logout());	
+	}
+public function beforeFilter(\Cake\Event\Event $event)
 {
     $this->Auth->allow(['add']);
 }

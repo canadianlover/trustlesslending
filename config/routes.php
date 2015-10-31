@@ -39,14 +39,34 @@ use Cake\Routing\Router;
  * `:action` markers.
  *
  */
-Router::defaultRouteClass('DashedRoute');
+Router::defaultRouteClass('Route');
 // passed parameters.
 
 
-Router::scope('/', function ($routes) {
-    $routes->connect('/', ['controller' => 'users', 'action' => 'login']);
-});
+Router::scope(
+    '/users',
+    ['controller' => 'Users'],
+    function ($routes) {
+        $routes->connect('/login', ['action' => 'login']);
+    });
 
+  // set up loans views routes
+  Router::scope('/loans', ['controller' => 'Loans'], function($routes) {
+	
+	  $routes->connect('/unfunded', ['action' => 'index', false]);
+						
+  });
+
+
+Router::scope('/', function ($routes) {
+    // Connect the default routes.
+    $routes->connect('/', ['controller' => 'Pages', 'action' => 'display', 'index']);
+	
+    $routes->fallbacks('InflectedRoute');
+
+});
+// add route for adding loans
+// set route to loans pa
 /**
  * Load all plugin routes.  See the Plugin documentation on
  * how to customize the loading of plugin routes.

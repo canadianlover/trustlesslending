@@ -35,15 +35,14 @@ class LoansTable extends Table
 
         $this->belongsTo('Users', [
             'foreignKey' => 'lender_id',
-            'joinType' => 'INNER'
+            'joinType' => 'INNER',
+			
         ]);
-        $this->hasOne('Lendees', [
-            'foreignKey' => 'lendee_id',
-            'joinType' => 'INNER'
-        ]);
+     
+       
         $this->hasOne('Collaterial', [
-            'foreignKey' => 'id',
-            'joinType' => 'INNER'
+            'foreignKey' => 'loan_id',
+            'joinType' => 'INNER',
         ]);
  
 	}

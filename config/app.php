@@ -39,8 +39,8 @@ return [
         'namespace' => 'App',
         'encoding' => 'UTF-8',
         'base' => false,
-        'dir' => ROOT .  'trustlesslending/src',
-        'webroot' => ROOT . 'trustlesslending/webroot',
+        'dir' => ROOT .  '/src',
+        'webroot' => ROOT . '/webroot',
         'wwwRoot' => WWW_ROOT,
         // 'baseUrl' => env('SCRIPT_NAME'),
         'fullBaseUrl' => false,
@@ -208,16 +208,16 @@ return [
             'className' => 'Cake\Database\Connection',
             'driver' => 'Cake\Database\Driver\Mysql',
             'persistent' => false,
-            'host' => '127.11.224.2',
+            'host' => 'localhost',
             /**
              * CakePHP will use the default DB port based on the driver selected
              * MySQL on MAMP uses port 8889, MAMP users will want to uncomment
              * the following line and set the port accordingly
              */
             //'port' => 'nonstandard_port_number',
-            'username' => 'adminu3mnypM',
-            'password' => 'nvy834_PBzh4',
-            'database' => 'cake',
+            'username' => 'root',
+            'password' => 'root',
+            'database' => 'lend_coins',
             'encoding' => 'utf8',
             'timezone' => 'UTC',
             'cacheMetadata' => true,

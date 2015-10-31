@@ -69,7 +69,7 @@ class CollaterialController extends AppController
         }
 		
 		$escrow = TableRegistry::get('users')->find('list')->where(
-		['escrow' => 'Y'])->toArray();
+		['role' => 'escrow'])->orWhere(['role' => 'admin'])->toArray();
         $this->set(compact('escrow'));
         $this->set('_serialize', ['collaterial']);
     }
@@ -118,4 +118,21 @@ class CollaterialController extends AppController
         }
         return $this->redirect(['action' => 'index']);
     }
+	
+	public function isAuthorized($user) {
+		// all registered users can add new collaterial or access the collateral controller's index page
+		if(in_array($this->request->action, ['add', 'index'])) {
+			return true;	
+		}
+		// the owner of collaterial can edit or delete details
+		if(in_array($this->request->action, ['edit', 'delete'])) {
+			// check ownership
+			$collaterialId = (int)$this->request->params['pass'][0];
+			if($this->Collaterial->isOwnedBy($collaterialId, $user['id'])) {
+				return true;
+			}
+		}
+		return parent::isAuthorized($user);
+	}
+	
 }

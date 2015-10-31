@@ -35,8 +35,10 @@ class UsersTable extends Table
         $this->addBehavior('Timestamp');
 		
 		$this->hasMany('Loans', [
-			'foreignKey' => 'user_id',
-			'joinType' => 'inner'
+			'foreignKey' => 'lendee_id',
+			'joinType' => 'inner',
+			'propertyName' => 'user',
+			'bindingLey' => 'username'
 			]);
 			
 		$this->hasMany('Collaterial', [

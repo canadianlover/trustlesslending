@@ -1674,3 +1674,835 @@ Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
 
 
 
+2015-10-26 15:31:12 Notice: Notice (8): Undefined variable: routes in [/Users/Account1/lcgit/trustlesslending/config/routes.php, line 52]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Routing\Router::{closure}() - ROOT/config/routes.php, line 52
+Cake\Routing\RouteBuilder::scope() - CORE/src/Routing/RouteBuilder.php, line 633
+Cake\Routing\Router::scope() - CORE/src/Routing/Router.php, line 884
+include - ROOT/config/routes.php, line 53
+Cake\Routing\Router::_loadRoutes() - CORE/src/Routing/Router.php, line 974
+Cake\Routing\Router::parse() - CORE/src/Routing/Router.php, line 333
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE/src/Routing/Filter/RoutingFilter.php, line 53
+Cake\Routing\DispatcherFilter::handle() - CORE/src/Routing/DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 62
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-26 15:31:33 Notice: Notice (8): Undefined variable: routes in [/Users/Account1/lcgit/trustlesslending/config/routes.php, line 52]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Routing\Router::{closure}() - ROOT/config/routes.php, line 52
+Cake\Routing\RouteBuilder::scope() - CORE/src/Routing/RouteBuilder.php, line 633
+Cake\Routing\Router::scope() - CORE/src/Routing/Router.php, line 884
+include - ROOT/config/routes.php, line 53
+Cake\Routing\Router::_loadRoutes() - CORE/src/Routing/Router.php, line 974
+Cake\Routing\Router::parse() - CORE/src/Routing/Router.php, line 333
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE/src/Routing/Filter/RoutingFilter.php, line 53
+Cake\Routing\DispatcherFilter::handle() - CORE/src/Routing/DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 62
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-26 15:31:46 Notice: Notice (8): Undefined variable: routes in [/Users/Account1/lcgit/trustlesslending/config/routes.php, line 52]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Routing\Router::{closure}() - ROOT/config/routes.php, line 52
+Cake\Routing\RouteBuilder::scope() - CORE/src/Routing/RouteBuilder.php, line 633
+Cake\Routing\Router::scope() - CORE/src/Routing/Router.php, line 884
+include - ROOT/config/routes.php, line 53
+Cake\Routing\Router::_loadRoutes() - CORE/src/Routing/Router.php, line 974
+Cake\Routing\Router::parse() - CORE/src/Routing/Router.php, line 333
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE/src/Routing/Filter/RoutingFilter.php, line 53
+Cake\Routing\DispatcherFilter::handle() - CORE/src/Routing/DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 62
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-26 15:31:54 Notice: Notice (8): Undefined variable: routes in [/Users/Account1/lcgit/trustlesslending/config/routes.php, line 52]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Routing\Router::{closure}() - ROOT/config/routes.php, line 52
+Cake\Routing\RouteBuilder::scope() - CORE/src/Routing/RouteBuilder.php, line 633
+Cake\Routing\Router::scope() - CORE/src/Routing/Router.php, line 884
+include - ROOT/config/routes.php, line 53
+Cake\Routing\Router::_loadRoutes() - CORE/src/Routing/Router.php, line 974
+Cake\Routing\Router::parse() - CORE/src/Routing/Router.php, line 333
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE/src/Routing/Filter/RoutingFilter.php, line 53
+Cake\Routing\DispatcherFilter::handle() - CORE/src/Routing/DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 62
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-26 15:31:55 Notice: Notice (8): Undefined variable: routes in [/Users/Account1/lcgit/trustlesslending/config/routes.php, line 52]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Routing\Router::{closure}() - ROOT/config/routes.php, line 52
+Cake\Routing\RouteBuilder::scope() - CORE/src/Routing/RouteBuilder.php, line 633
+Cake\Routing\Router::scope() - CORE/src/Routing/Router.php, line 884
+include - ROOT/config/routes.php, line 53
+Cake\Routing\Router::_loadRoutes() - CORE/src/Routing/Router.php, line 974
+Cake\Routing\Router::parse() - CORE/src/Routing/Router.php, line 333
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE/src/Routing/Filter/RoutingFilter.php, line 53
+Cake\Routing\DispatcherFilter::handle() - CORE/src/Routing/DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 62
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-26 15:31:57 Notice: Notice (8): Undefined variable: routes in [/Users/Account1/lcgit/trustlesslending/config/routes.php, line 52]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Routing\Router::{closure}() - ROOT/config/routes.php, line 52
+Cake\Routing\RouteBuilder::scope() - CORE/src/Routing/RouteBuilder.php, line 633
+Cake\Routing\Router::scope() - CORE/src/Routing/Router.php, line 884
+include - ROOT/config/routes.php, line 53
+Cake\Routing\Router::_loadRoutes() - CORE/src/Routing/Router.php, line 974
+Cake\Routing\Router::parse() - CORE/src/Routing/Router.php, line 333
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE/src/Routing/Filter/RoutingFilter.php, line 53
+Cake\Routing\DispatcherFilter::handle() - CORE/src/Routing/DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 62
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-26 15:31:59 Notice: Notice (8): Undefined variable: routes in [/Users/Account1/lcgit/trustlesslending/config/routes.php, line 52]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Routing\Router::{closure}() - ROOT/config/routes.php, line 52
+Cake\Routing\RouteBuilder::scope() - CORE/src/Routing/RouteBuilder.php, line 633
+Cake\Routing\Router::scope() - CORE/src/Routing/Router.php, line 884
+include - ROOT/config/routes.php, line 53
+Cake\Routing\Router::_loadRoutes() - CORE/src/Routing/Router.php, line 974
+Cake\Routing\Router::parse() - CORE/src/Routing/Router.php, line 333
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE/src/Routing/Filter/RoutingFilter.php, line 53
+Cake\Routing\DispatcherFilter::handle() - CORE/src/Routing/DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 62
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-26 15:32:01 Notice: Notice (8): Undefined variable: routes in [/Users/Account1/lcgit/trustlesslending/config/routes.php, line 52]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Routing\Router::{closure}() - ROOT/config/routes.php, line 52
+Cake\Routing\RouteBuilder::scope() - CORE/src/Routing/RouteBuilder.php, line 633
+Cake\Routing\Router::scope() - CORE/src/Routing/Router.php, line 884
+include - ROOT/config/routes.php, line 53
+Cake\Routing\Router::_loadRoutes() - CORE/src/Routing/Router.php, line 974
+Cake\Routing\Router::parse() - CORE/src/Routing/Router.php, line 333
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE/src/Routing/Filter/RoutingFilter.php, line 53
+Cake\Routing\DispatcherFilter::handle() - CORE/src/Routing/DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 62
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-26 15:32:03 Notice: Notice (8): Undefined variable: routes in [/Users/Account1/lcgit/trustlesslending/config/routes.php, line 52]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Routing\Router::{closure}() - ROOT/config/routes.php, line 52
+Cake\Routing\RouteBuilder::scope() - CORE/src/Routing/RouteBuilder.php, line 633
+Cake\Routing\Router::scope() - CORE/src/Routing/Router.php, line 884
+include - ROOT/config/routes.php, line 53
+Cake\Routing\Router::_loadRoutes() - CORE/src/Routing/Router.php, line 974
+Cake\Routing\Router::parse() - CORE/src/Routing/Router.php, line 333
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE/src/Routing/Filter/RoutingFilter.php, line 53
+Cake\Routing\DispatcherFilter::handle() - CORE/src/Routing/DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 62
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-26 15:32:04 Notice: Notice (8): Undefined variable: routes in [/Users/Account1/lcgit/trustlesslending/config/routes.php, line 52]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Routing\Router::{closure}() - ROOT/config/routes.php, line 52
+Cake\Routing\RouteBuilder::scope() - CORE/src/Routing/RouteBuilder.php, line 633
+Cake\Routing\Router::scope() - CORE/src/Routing/Router.php, line 884
+include - ROOT/config/routes.php, line 53
+Cake\Routing\Router::_loadRoutes() - CORE/src/Routing/Router.php, line 974
+Cake\Routing\Router::parse() - CORE/src/Routing/Router.php, line 333
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE/src/Routing/Filter/RoutingFilter.php, line 53
+Cake\Routing\DispatcherFilter::handle() - CORE/src/Routing/DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 62
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-26 15:32:05 Notice: Notice (8): Undefined variable: routes in [/Users/Account1/lcgit/trustlesslending/config/routes.php, line 52]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Routing\Router::{closure}() - ROOT/config/routes.php, line 52
+Cake\Routing\RouteBuilder::scope() - CORE/src/Routing/RouteBuilder.php, line 633
+Cake\Routing\Router::scope() - CORE/src/Routing/Router.php, line 884
+include - ROOT/config/routes.php, line 53
+Cake\Routing\Router::_loadRoutes() - CORE/src/Routing/Router.php, line 974
+Cake\Routing\Router::parse() - CORE/src/Routing/Router.php, line 333
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE/src/Routing/Filter/RoutingFilter.php, line 53
+Cake\Routing\DispatcherFilter::handle() - CORE/src/Routing/DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 389
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Routing\Dispatcher::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 62
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-26 23:16:06 Notice: Notice (8): Undefined index: pageCount in [/Users/Account1/lcgit/trustlesslending/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php, line 668]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::numbers() - CORE/src/View/Helper/PaginatorHelper.php, line 668
+include - APP/Template/Loans/index.ctp, line 44
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 970
+Cake\View\View::_render() - CORE/src/View/View.php, line 930
+Cake\View\View::render() - CORE/src/View/View.php, line 578
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-26 23:16:06 Notice: Notice (8): Undefined index: pageCount in [/Users/Account1/lcgit/trustlesslending/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php, line 589]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE/src/View/Helper/PaginatorHelper.php, line 589
+include - APP/Template/Loans/index.ctp, line 47
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 970
+Cake\View\View::_render() - CORE/src/View/View.php, line 930
+Cake\View\View::render() - CORE/src/View/View.php, line 578
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-26 23:16:06 Notice: Notice (8): Undefined index: count in [/Users/Account1/lcgit/trustlesslending/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php, line 593]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE/src/View/Helper/PaginatorHelper.php, line 593
+include - APP/Template/Loans/index.ctp, line 47
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 970
+Cake\View\View::_render() - CORE/src/View/View.php, line 930
+Cake\View\View::render() - CORE/src/View/View.php, line 578
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-26 23:16:06 Notice: Notice (8): Undefined index: perPage in [/Users/Account1/lcgit/trustlesslending/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php, line 596]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE/src/View/Helper/PaginatorHelper.php, line 596
+include - APP/Template/Loans/index.ctp, line 47
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 970
+Cake\View\View::_render() - CORE/src/View/View.php, line 930
+Cake\View\View::render() - CORE/src/View/View.php, line 578
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-26 23:16:06 Notice: Notice (8): Undefined index: count in [/Users/Account1/lcgit/trustlesslending/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php, line 597]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE/src/View/Helper/PaginatorHelper.php, line 597
+include - APP/Template/Loans/index.ctp, line 47
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 970
+Cake\View\View::_render() - CORE/src/View/View.php, line 930
+Cake\View\View::render() - CORE/src/View/View.php, line 578
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-26 23:16:06 Notice: Notice (8): Undefined index: count in [/Users/Account1/lcgit/trustlesslending/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php, line 598]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE/src/View/Helper/PaginatorHelper.php, line 598
+include - APP/Template/Loans/index.ctp, line 47
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 970
+Cake\View\View::_render() - CORE/src/View/View.php, line 930
+Cake\View\View::render() - CORE/src/View/View.php, line 578
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-26 23:16:06 Notice: Notice (8): Undefined index: page in [/Users/Account1/lcgit/trustlesslending/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php, line 611]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE/src/View/Helper/PaginatorHelper.php, line 611
+include - APP/Template/Loans/index.ctp, line 47
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 970
+Cake\View\View::_render() - CORE/src/View/View.php, line 930
+Cake\View\View::render() - CORE/src/View/View.php, line 578
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-26 23:16:06 Notice: Notice (8): Undefined index: current in [/Users/Account1/lcgit/trustlesslending/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php, line 613]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE/src/View/Helper/PaginatorHelper.php, line 613
+include - APP/Template/Loans/index.ctp, line 47
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 970
+Cake\View\View::_render() - CORE/src/View/View.php, line 930
+Cake\View\View::render() - CORE/src/View/View.php, line 578
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-26 23:16:06 Notice: Notice (8): Undefined index: count in [/Users/Account1/lcgit/trustlesslending/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php, line 614]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE/src/View/Helper/PaginatorHelper.php, line 614
+include - APP/Template/Loans/index.ctp, line 47
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 970
+Cake\View\View::_render() - CORE/src/View/View.php, line 930
+Cake\View\View::render() - CORE/src/View/View.php, line 578
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-27 04:14:15 Notice: Notice (8): Undefined variable: thi in [/Users/Account1/lcgit/trustlesslending/src/Controller/LoansController.php, line 38]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\LoansController::index() - APP/Controller/LoansController.php, line 38
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 416
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-27 04:14:15 Notice: Notice (8): Trying to get property of non-object in [/Users/Account1/lcgit/trustlesslending/src/Controller/LoansController.php, line 38]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\LoansController::index() - APP/Controller/LoansController.php, line 38
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 416
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-27 04:14:18 Notice: Notice (8): Undefined variable: thi in [/Users/Account1/lcgit/trustlesslending/src/Controller/LoansController.php, line 38]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\LoansController::index() - APP/Controller/LoansController.php, line 38
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 416
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-27 04:14:18 Notice: Notice (8): Trying to get property of non-object in [/Users/Account1/lcgit/trustlesslending/src/Controller/LoansController.php, line 38]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\LoansController::index() - APP/Controller/LoansController.php, line 38
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 416
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-27 04:15:23 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$username in [/Users/Account1/lcgit/trustlesslending/src/Template/Loans/index.ctp, line 25]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Loans/index.ctp, line 25
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 970
+Cake\View\View::_render() - CORE/src/View/View.php, line 930
+Cake\View\View::render() - CORE/src/View/View.php, line 578
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-27 04:15:23 Notice: Notice (8): Undefined variable: data in [/Users/Account1/lcgit/trustlesslending/vendor/cakephp/cakephp/src/Utility/Text.php, line 167]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Utility\Text::insert() - CORE/src/Utility/Text.php, line 167
+Cake\View\Helper\TextHelper::__call() - CORE/src/View/Helper/TextHelper.php, line 99
+Cake\View\Helper\TextHelper::insert() - APP/Template/Loans/index.ctp, line 25
+include - APP/Template/Loans/index.ctp, line 25
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 970
+Cake\View\View::_render() - CORE/src/View/View.php, line 930
+Cake\View\View::render() - CORE/src/View/View.php, line 578
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-27 04:15:25 Notice: Notice (8): Undefined variable: data in [/Users/Account1/lcgit/trustlesslending/vendor/cakephp/cakephp/src/Utility/Text.php, line 167]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Utility\Text::insert() - CORE/src/Utility/Text.php, line 167
+Cake\View\Helper\TextHelper::__call() - CORE/src/View/Helper/TextHelper.php, line 99
+Cake\View\Helper\TextHelper::insert() - APP/Template/Loans/index.ctp, line 27
+include - APP/Template/Loans/index.ctp, line 27
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 970
+Cake\View\View::_render() - CORE/src/View/View.php, line 930
+Cake\View\View::render() - CORE/src/View/View.php, line 578
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-28 01:09:01 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$username in [/Users/Account1/lcgit/trustlesslending/src/Template/Loans/index.ctp, line 25]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Loans/index.ctp, line 25
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 970
+Cake\View\View::_render() - CORE/src/View/View.php, line 930
+Cake\View\View::render() - CORE/src/View/View.php, line 578
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-28 01:09:01 Notice: Notice (8): Undefined variable: data in [/Users/Account1/lcgit/trustlesslending/vendor/cakephp/cakephp/src/Utility/Text.php, line 167]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Utility\Text::insert() - CORE/src/Utility/Text.php, line 167
+Cake\View\Helper\TextHelper::__call() - CORE/src/View/Helper/TextHelper.php, line 99
+Cake\View\Helper\TextHelper::insert() - APP/Template/Loans/index.ctp, line 25
+include - APP/Template/Loans/index.ctp, line 25
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 970
+Cake\View\View::_render() - CORE/src/View/View.php, line 930
+Cake\View\View::render() - CORE/src/View/View.php, line 578
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-28 01:09:01 Notice: Notice (8): Undefined variable: data in [/Users/Account1/lcgit/trustlesslending/vendor/cakephp/cakephp/src/Utility/Text.php, line 167]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Utility\Text::insert() - CORE/src/Utility/Text.php, line 167
+Cake\View\Helper\TextHelper::__call() - CORE/src/View/Helper/TextHelper.php, line 99
+Cake\View\Helper\TextHelper::insert() - APP/Template/Loans/index.ctp, line 27
+include - APP/Template/Loans/index.ctp, line 27
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 970
+Cake\View\View::_render() - CORE/src/View/View.php, line 930
+Cake\View\View::render() - CORE/src/View/View.php, line 578
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-28 03:28:50 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$username in [/Users/Account1/lcgit/trustlesslending/src/Template/Loans/index.ctp, line 25]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Loans/index.ctp, line 25
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 970
+Cake\View\View::_render() - CORE/src/View/View.php, line 930
+Cake\View\View::render() - CORE/src/View/View.php, line 578
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-28 03:28:50 Notice: Notice (8): Undefined variable: data in [/Users/Account1/lcgit/trustlesslending/vendor/cakephp/cakephp/src/Utility/Text.php, line 167]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Utility\Text::insert() - CORE/src/Utility/Text.php, line 167
+Cake\View\Helper\TextHelper::__call() - CORE/src/View/Helper/TextHelper.php, line 99
+Cake\View\Helper\TextHelper::insert() - APP/Template/Loans/index.ctp, line 25
+include - APP/Template/Loans/index.ctp, line 25
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 970
+Cake\View\View::_render() - CORE/src/View/View.php, line 930
+Cake\View\View::render() - CORE/src/View/View.php, line 578
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-28 03:28:50 Notice: Notice (8): Undefined variable: data in [/Users/Account1/lcgit/trustlesslending/vendor/cakephp/cakephp/src/Utility/Text.php, line 167]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Utility\Text::insert() - CORE/src/Utility/Text.php, line 167
+Cake\View\Helper\TextHelper::__call() - CORE/src/View/Helper/TextHelper.php, line 99
+Cake\View\Helper\TextHelper::insert() - APP/Template/Loans/index.ctp, line 27
+include - APP/Template/Loans/index.ctp, line 27
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 970
+Cake\View\View::_render() - CORE/src/View/View.php, line 930
+Cake\View\View::render() - CORE/src/View/View.php, line 578
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-30 03:10:48 Notice: Notice (8): Array to string conversion in [/Users/Account1/lcgit/trustlesslending/src/Template/Loans/index.ctp, line 27]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Loans/index.ctp, line 27
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 970
+Cake\View\View::_render() - CORE/src/View/View.php, line 930
+Cake\View\View::render() - CORE/src/View/View.php, line 578
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-30 03:13:13 Notice: Notice (8): Undefined variable: loans in [/Users/Account1/lcgit/trustlesslending/src/Template/Loans/index.ctp, line 23]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Loans/index.ctp, line 23
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 970
+Cake\View\View::_render() - CORE/src/View/View.php, line 930
+Cake\View\View::render() - CORE/src/View/View.php, line 578
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-30 03:14:56 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$username in [/Users/Account1/lcgit/trustlesslending/src/Template/Loans/index.ctp, line 25]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Loans/index.ctp, line 25
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 970
+Cake\View\View::_render() - CORE/src/View/View.php, line 930
+Cake\View\View::render() - CORE/src/View/View.php, line 578
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-30 03:14:56 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$amount in [/Users/Account1/lcgit/trustlesslending/src/Template/Loans/index.ctp, line 26]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Loans/index.ctp, line 26
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 970
+Cake\View\View::_render() - CORE/src/View/View.php, line 930
+Cake\View\View::render() - CORE/src/View/View.php, line 578
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-30 03:14:56 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$collaterial in [/Users/Account1/lcgit/trustlesslending/src/Template/Loans/index.ctp, line 27]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Loans/index.ctp, line 27
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 970
+Cake\View\View::_render() - CORE/src/View/View.php, line 930
+Cake\View\View::render() - CORE/src/View/View.php, line 578
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-30 03:14:56 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$id in [/Users/Account1/lcgit/trustlesslending/src/Template/Loans/index.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Loans/index.ctp, line 29
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 970
+Cake\View\View::_render() - CORE/src/View/View.php, line 930
+Cake\View\View::render() - CORE/src/View/View.php, line 578
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-30 03:14:57 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$id in [/Users/Account1/lcgit/trustlesslending/src/Template/Loans/index.ctp, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Loans/index.ctp, line 30
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 970
+Cake\View\View::_render() - CORE/src/View/View.php, line 930
+Cake\View\View::render() - CORE/src/View/View.php, line 578
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-30 03:14:57 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$id in [/Users/Account1/lcgit/trustlesslending/src/Template/Loans/index.ctp, line 31]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Loans/index.ctp, line 31
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 970
+Cake\View\View::_render() - CORE/src/View/View.php, line 930
+Cake\View\View::render() - CORE/src/View/View.php, line 578
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-30 03:14:57 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$id in [/Users/Account1/lcgit/trustlesslending/src/Template/Loans/index.ctp, line 31]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Loans/index.ctp, line 31
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 970
+Cake\View\View::_render() - CORE/src/View/View.php, line 930
+Cake\View\View::render() - CORE/src/View/View.php, line 578
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-30 03:24:08 Notice: Notice (8): Undefined index: id in [/Users/Account1/lcgit/trustlesslending/src/Template/Loans/index.ctp, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Loans/index.ctp, line 29
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 970
+Cake\View\View::_render() - CORE/src/View/View.php, line 930
+Cake\View\View::render() - CORE/src/View/View.php, line 578
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-30 03:24:08 Notice: Notice (8): Undefined index: id in [/Users/Account1/lcgit/trustlesslending/src/Template/Loans/index.ctp, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Loans/index.ctp, line 30
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 970
+Cake\View\View::_render() - CORE/src/View/View.php, line 930
+Cake\View\View::render() - CORE/src/View/View.php, line 578
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-30 03:24:08 Notice: Notice (8): Undefined index: id in [/Users/Account1/lcgit/trustlesslending/src/Template/Loans/index.ctp, line 31]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Loans/index.ctp, line 31
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 970
+Cake\View\View::_render() - CORE/src/View/View.php, line 930
+Cake\View\View::render() - CORE/src/View/View.php, line 578
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 598
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-31 00:28:46 Notice: Notice (8): Undefined variable: funded in [/Users/Account1/lcgit/trustlesslending/src/Controller/LoansController.php, line 33]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\LoansController::index() - APP/Controller/LoansController.php, line 33
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 416
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-31 00:28:47 Notice: Notice (8): Undefined variable: funded in [/Users/Account1/lcgit/trustlesslending/src/Controller/LoansController.php, line 33]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\LoansController::index() - APP/Controller/LoansController.php, line 33
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 416
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-31 20:18:53 Notice: Notice (8): Undefined offset: 0 in [/Users/Account1/lcgit/trustlesslending/src/Controller/CollaterialController.php, line 130]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\CollaterialController::isAuthorized() - APP/Controller/CollaterialController.php, line 130
+Cake\Auth\ControllerAuthorize::authorize() - CORE/src/Auth/ControllerAuthorize.php, line 92
+Cake\Controller\Component\AuthComponent::isAuthorized() - CORE/src/Controller/Component/AuthComponent.php, line 494
+Cake\Controller\Component\AuthComponent::authCheck() - CORE/src/Controller/Component/AuthComponent.php, line 305
+Cake\Controller\Component\AuthComponent::startup() - CORE/src/Controller/Component/AuthComponent.php, line 258
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 482
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-31 20:19:01 Notice: Notice (8): Undefined offset: 0 in [/Users/Account1/lcgit/trustlesslending/src/Controller/CollaterialController.php, line 130]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\CollaterialController::isAuthorized() - APP/Controller/CollaterialController.php, line 130
+Cake\Auth\ControllerAuthorize::authorize() - CORE/src/Auth/ControllerAuthorize.php, line 92
+Cake\Controller\Component\AuthComponent::isAuthorized() - CORE/src/Controller/Component/AuthComponent.php, line 494
+Cake\Controller\Component\AuthComponent::authCheck() - CORE/src/Controller/Component/AuthComponent.php, line 305
+Cake\Controller\Component\AuthComponent::startup() - CORE/src/Controller/Component/AuthComponent.php, line 258
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 482
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-31 20:26:46 Notice: Notice (8): Undefined offset: 0 in [/Users/Account1/lcgit/trustlesslending/src/Controller/CollaterialController.php, line 130]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\CollaterialController::isAuthorized() - APP/Controller/CollaterialController.php, line 130
+Cake\Auth\ControllerAuthorize::authorize() - CORE/src/Auth/ControllerAuthorize.php, line 92
+Cake\Controller\Component\AuthComponent::isAuthorized() - CORE/src/Controller/Component/AuthComponent.php, line 494
+Cake\Controller\Component\AuthComponent::authCheck() - CORE/src/Controller/Component/AuthComponent.php, line 305
+Cake\Controller\Component\AuthComponent::startup() - CORE/src/Controller/Component/AuthComponent.php, line 258
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 482
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-31 20:26:47 Notice: Notice (8): Undefined variable: userId in [/Users/Account1/lcgit/trustlesslending/src/Model/Table/CollaterialTable.php, line 88]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CollaterialTable::isOwnedBy() - APP/Model/Table/CollaterialTable.php, line 88
+App\Controller\CollaterialController::isAuthorized() - APP/Controller/CollaterialController.php, line 131
+Cake\Auth\ControllerAuthorize::authorize() - CORE/src/Auth/ControllerAuthorize.php, line 92
+Cake\Controller\Component\AuthComponent::isAuthorized() - CORE/src/Controller/Component/AuthComponent.php, line 494
+Cake\Controller\Component\AuthComponent::authCheck() - CORE/src/Controller/Component/AuthComponent.php, line 305
+Cake\Controller\Component\AuthComponent::startup() - CORE/src/Controller/Component/AuthComponent.php, line 258
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 482
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-31 20:28:03 Notice: Notice (8): Undefined offset: 0 in [/Users/Account1/lcgit/trustlesslending/src/Controller/CollaterialController.php, line 130]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\CollaterialController::isAuthorized() - APP/Controller/CollaterialController.php, line 130
+Cake\Auth\ControllerAuthorize::authorize() - CORE/src/Auth/ControllerAuthorize.php, line 92
+Cake\Controller\Component\AuthComponent::isAuthorized() - CORE/src/Controller/Component/AuthComponent.php, line 494
+Cake\Controller\Component\AuthComponent::authCheck() - CORE/src/Controller/Component/AuthComponent.php, line 305
+Cake\Controller\Component\AuthComponent::startup() - CORE/src/Controller/Component/AuthComponent.php, line 258
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 482
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-10-31 20:28:03 Notice: Notice (8): Undefined variable: userId in [/Users/Account1/lcgit/trustlesslending/src/Model/Table/CollaterialTable.php, line 88]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CollaterialTable::isOwnedBy() - APP/Model/Table/CollaterialTable.php, line 88
+App\Controller\CollaterialController::isAuthorized() - APP/Controller/CollaterialController.php, line 131
+Cake\Auth\ControllerAuthorize::authorize() - CORE/src/Auth/ControllerAuthorize.php, line 92
+Cake\Controller\Component\AuthComponent::isAuthorized() - CORE/src/Controller/Component/AuthComponent.php, line 494
+Cake\Controller\Component\AuthComponent::authCheck() - CORE/src/Controller/Component/AuthComponent.php, line 305
+Cake\Controller\Component\AuthComponent::startup() - CORE/src/Controller/Component/AuthComponent.php, line 258
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 355
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 482
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 109
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
