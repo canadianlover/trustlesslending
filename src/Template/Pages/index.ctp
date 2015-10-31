@@ -3,7 +3,7 @@
 	<li class="heading"><?= __('Actions') ?></li>
 	<?php if($this->Session->read('Auth.User')) { { ?>
 	<li><?= $this->Html->link(__('View unfunded loans'), ['controller' => 'Loans', 'action' => 'index']) ?></li>
-	<li><?= $this->Html->link(__('View funded loans'), ['controller', 'Loans' 'action' => 'index', true]) ?></li>
+	<li><?= $this->Html->link(__('View funded loans'), ['controller', 'Loans', 'action' => 'index', true]) ?></li>
 	<? php } else { ?>
 	<li><?= $this->Html->link(__('Login'), ['controller' => 'Users', 'action' => 'login']) ?></li>
 	<li><?= $this->Html->link(__('Register'), ['controller' => 'Users', 'action' => 'add']) ?></li>
