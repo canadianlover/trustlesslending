@@ -1,6 +1,6 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
-	ReWritebase OPENSHIFT_HOMEDIR
+	ReWriteBase OPENSHIFT_HOMEDIR
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 </IfModule>
