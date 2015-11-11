@@ -11,10 +11,13 @@
     <fieldset>
         <legend><?= __('Add User') ?></legend>
         <?php
-		   	echo $this->Form->input('username');
-            echo $this->Form->input('email');
+		   	  echo $this->Form->input('email');
             echo $this->Form->input('password');
-           
+            echo $this->Form->input('Location');
+			echo $this->Form->input('Country');
+			echo $this->Form->input('Phone');
+			echo $this->Form->input('Identification');
+			echo $this->Form->input('Type', ['type' => 'select', 'options' => ['Driver\'s License', 'Passport', 'National ID Card']]);           
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>

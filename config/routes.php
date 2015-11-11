@@ -60,7 +60,7 @@ Router::scope(
 
 Router::scope('/', function ($routes) {
     // Connect the default routes.
-    $routes->connect('/', ['controller' => 'Pages', 'action' => 'display', 'index']);
+    $routes->connect('/', ['controller' => 'Users', 'action' => 'home']);
 	
     $routes->fallbacks('InflectedRoute');
 

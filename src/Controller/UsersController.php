@@ -110,11 +110,12 @@ public function login()
 {
     if ($this->request->is('post')) {
 			// authenticate and identify user
-			$user = $this->Auth->identify();
+			 $user = $this->Auth->identify();
 					
 			 if($user) { // sucessful login
 			 $this->Auth->setUser($user);
-			 return $this->redirect(['Controller' => 'Loans', 'action' => 'index']);
+			 
+			 return $this->redirect(['action' => 'home']);
 			 }
 			 return $this->Flash->error('Your username or password is incorrect');
 			 
@@ -123,18 +124,44 @@ public function login()
 	
 	}
 	public function logout() {
-		$this->Flash->succeess('You are now logged out');
+		$this->Flash->success('You are now logged out');
 		return $this->redirect($this->Auth->logout());	
 	}
 public function beforeFilter(\Cake\Event\Event $event)
 {
-    $this->Auth->allow(['add']);
+    $this->Auth->allow(['add', 'home']);
 }
 
 	public function isAuthorized($user) {
+		// admins are always allowed to access every action
 		if(isset($user['role']) && $user['role'] == 'admin') {
 			return true;
 		}
-		
+		// allow users to edit their own profile
+		if($this->request->params['action'] === 'edit') {
+			if($this->request->params[0] === $this->Auth->users('id')) {
+			return true;
+			} else {
+				return false;
+			}
+		}
+		return parent::isAuthorized($user);
 	}
+	public function home() {
+		if($this->Auth->user()) {
+			$this->set('loggedin', true);
+		} else {
+			$this->set('loggedin', false);
+		}
+		$this->set('title', 'Home');
+		$this->set('user_id', $this->Auth->user('id'));
+		$this->render('sitehome');
+	
+	
+	}
+	public function validationDefault(Validator $validator) {
+		$validator->notEmpty('Location')->requirePresence('Location')->notEmpty('Country')->requirePresence('Country')->notEmpty('Phone')->requirePresence('Phone')->notEmpty('Identification')->requirePresence('Identification')->requirePresence('Type');
+		return $validator;
+	}
+	
 }
