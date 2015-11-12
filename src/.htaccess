@@ -3,4 +3,5 @@
    RewriteBase /
    RewriteRule    ^$    /    [L]
    RewriteRule    (.*) /$1    [L]
+   AllowOverride All
 </IfModule>
