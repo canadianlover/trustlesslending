@@ -1,5 +1,6 @@
-<IfModule mod_rewrite.c>
-    RewriteEngine on
-    RewriteRule ^$ / [L]
-    RewriteRule (.*) /$1 [L]
-</IfModule>
+<Directory />
+    Options FollowSymLinks
+    AllowOverride All
+#    Order deny,allow
+#    Deny from all
+</Directory>
