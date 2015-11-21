@@ -3,5 +3,6 @@
    RewriteBase /
    RewriteRule    ^$    webroot/    [L]
    RewriteRule    (.*) webroot/$1    [L]
+   RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
    AllowOverride All
 </IfModule>
