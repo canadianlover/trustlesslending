@@ -140,7 +140,7 @@ class LoansController extends AppController
         return $this->redirect(['action' => 'index']);
     }
 	public function isAuthorized($user)
-{
+{/*
     $action = $this->request->params['action'];
 
     // The add and index actions are always allowed.
@@ -154,7 +154,12 @@ class LoansController extends AppController
     if ($loan->user_id == $user['id']) {
         return true;
     }
+	
     return parent::isAuthorized($user);
+	*/
+	// in the demo project, all users are authorized
+	
+	return true;
 }
 
 }

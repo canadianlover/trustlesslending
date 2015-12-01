@@ -120,6 +120,7 @@ class CollaterialController extends AppController
     }
 	
 	public function isAuthorized($user) {
+		/* i nthe demo project, all users are authorized
 		// all registered users can add new collaterial or access the collateral controller's index page
 		if(in_array($this->request->action, ['add', 'index'])) {
 			return true;	
@@ -132,6 +133,7 @@ class CollaterialController extends AppController
 				return true;
 			}
 		}
+		*/
 		return parent::isAuthorized($user);
 	}
 	
