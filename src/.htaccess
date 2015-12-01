@@ -1,7 +1,7 @@
 <IfModule mod_rewrite.c>
    RewriteEngine on
    RewriteBase /
-   RewriteRule    ^$    /    [L]
-   RewriteRule    (.*) /$1    [L]
+   RewriteRule    ^$    webroot/    [L]
+   RewriteRule    (.*) webroot/$1    [L]
    AllowOverride All
 </IfModule>
