@@ -11,7 +11,6 @@
 	echo '<li>'.$this->Html->link(__('Login'), ['controller' => 'Users', 'action' => 'login']).'</li>';
 	echo '<li>'.$this->Html->link(__('Register'), ['controller' => 'Users', 'action' => 'add']).'</li>';
  } ?>
- <li><?= $this->Html->link(__('Loans'), ['controller' => 'Loans', 'action' => 'view']) ?></li>
 	</ul>
 
 </nav>
