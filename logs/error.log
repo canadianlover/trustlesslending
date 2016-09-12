@@ -6372,3 +6372,161 @@ Stack Trace:
 #2 {main}
 
 
+2016-05-08 15:02:35 Error: [PDOException] SQLSTATE[28000] [1045] Access denied for user 'adminu3mnypM'@'localhost' (using password: YES)
+Request URL: /users/add
+Stack Trace:
+#0 /vagrant/app/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(48): PDO->__construct('mysql:host=127....', 'adminu3mnypM', 'nvy834_PBzh4', Array)
+#1 /vagrant/app/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(89): Cake\Database\Driver\Mysql->_connect('mysql:host=127....', Array)
+#2 /vagrant/app/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /vagrant/app/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(62): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /vagrant/app/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(51): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /vagrant/app/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /vagrant/app/vendor/cakephp/cakephp/src/Database/Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /vagrant/app/vendor/cakephp/cakephp/src/ORM/Table.php(422): Cake\Database\Connection->schemaCollection()
+#8 /vagrant/app/vendor/cakephp/cakephp/src/View/Form/EntityContext.php(461): Cake\ORM\Table->schema()
+#9 /vagrant/app/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1176): Cake\View\Form\EntityContext->type('email')
+#10 /vagrant/app/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1148): Cake\View\Helper\FormHelper->_inputType('email', Array)
+#11 /vagrant/app/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1006): Cake\View\Helper\FormHelper->_parseOptions('email', Array)
+#12 /vagrant/app/src/Template/Users/add.ctp(14): Cake\View\Helper\FormHelper->input('email')
+#13 /vagrant/app/vendor/cakephp/cakephp/src/View/View.php(970): include('/vagrant/app/sr...')
+#14 /vagrant/app/vendor/cakephp/cakephp/src/View/View.php(930): Cake\View\View->_evaluate('/vagrant/app/sr...', Array)
+#15 /vagrant/app/vendor/cakephp/cakephp/src/View/View.php(578): Cake\View\View->_render('/vagrant/app/sr...')
+#16 /vagrant/app/vendor/cakephp/cakephp/src/Controller/Controller.php(598): Cake\View\View->render(NULL, NULL)
+#17 /vagrant/app/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#18 /vagrant/app/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#19 /vagrant/app/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2016-05-08 22:49:18 Error: [PDOException] SQLSTATE[28000] [1045] Access denied for user 'adminu3mnypM'@'localhost' (using password: YES)
+Request URL: /users/add
+Stack Trace:
+#0 /vagrant/app/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(48): PDO->__construct('mysql:host=127....', 'adminu3mnypM', 'nvy834_PBzh4', Array)
+#1 /vagrant/app/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(89): Cake\Database\Driver\Mysql->_connect('mysql:host=127....', Array)
+#2 /vagrant/app/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /vagrant/app/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(62): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /vagrant/app/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(51): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /vagrant/app/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /vagrant/app/vendor/cakephp/cakephp/src/Database/Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /vagrant/app/vendor/cakephp/cakephp/src/ORM/Table.php(422): Cake\Database\Connection->schemaCollection()
+#8 /vagrant/app/vendor/cakephp/cakephp/src/View/Form/EntityContext.php(461): Cake\ORM\Table->schema()
+#9 /vagrant/app/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1176): Cake\View\Form\EntityContext->type('email')
+#10 /vagrant/app/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1148): Cake\View\Helper\FormHelper->_inputType('email', Array)
+#11 /vagrant/app/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1006): Cake\View\Helper\FormHelper->_parseOptions('email', Array)
+#12 /vagrant/app/src/Template/Users/add.ctp(14): Cake\View\Helper\FormHelper->input('email')
+#13 /vagrant/app/vendor/cakephp/cakephp/src/View/View.php(970): include('/vagrant/app/sr...')
+#14 /vagrant/app/vendor/cakephp/cakephp/src/View/View.php(930): Cake\View\View->_evaluate('/vagrant/app/sr...', Array)
+#15 /vagrant/app/vendor/cakephp/cakephp/src/View/View.php(578): Cake\View\View->_render('/vagrant/app/sr...')
+#16 /vagrant/app/vendor/cakephp/cakephp/src/Controller/Controller.php(598): Cake\View\View->render(NULL, NULL)
+#17 /vagrant/app/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#18 /vagrant/app/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#19 /vagrant/app/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2016-05-08 23:17:56 Error: [PDOException] SQLSTATE[28000] [1045] Access denied for user 'adminu3mnypM'@'localhost' (using password: YES)
+Request URL: /users/add
+Stack Trace:
+#0 /vagrant/app/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(48): PDO->__construct('mysql:host=127....', 'adminu3mnypM', 'nvy834_PBzh4', Array)
+#1 /vagrant/app/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(89): Cake\Database\Driver\Mysql->_connect('mysql:host=127....', Array)
+#2 /vagrant/app/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /vagrant/app/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(62): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /vagrant/app/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(51): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /vagrant/app/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /vagrant/app/vendor/cakephp/cakephp/src/Database/Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /vagrant/app/vendor/cakephp/cakephp/src/ORM/Table.php(422): Cake\Database\Connection->schemaCollection()
+#8 /vagrant/app/vendor/cakephp/cakephp/src/View/Form/EntityContext.php(461): Cake\ORM\Table->schema()
+#9 /vagrant/app/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1176): Cake\View\Form\EntityContext->type('email')
+#10 /vagrant/app/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1148): Cake\View\Helper\FormHelper->_inputType('email', Array)
+#11 /vagrant/app/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1006): Cake\View\Helper\FormHelper->_parseOptions('email', Array)
+#12 /vagrant/app/src/Template/Users/add.ctp(14): Cake\View\Helper\FormHelper->input('email')
+#13 /vagrant/app/vendor/cakephp/cakephp/src/View/View.php(970): include('/vagrant/app/sr...')
+#14 /vagrant/app/vendor/cakephp/cakephp/src/View/View.php(930): Cake\View\View->_evaluate('/vagrant/app/sr...', Array)
+#15 /vagrant/app/vendor/cakephp/cakephp/src/View/View.php(578): Cake\View\View->_render('/vagrant/app/sr...')
+#16 /vagrant/app/vendor/cakephp/cakephp/src/Controller/Controller.php(598): Cake\View\View->render(NULL, NULL)
+#17 /vagrant/app/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#18 /vagrant/app/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#19 /vagrant/app/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2016-05-08 23:18:18 Error: [PDOException] SQLSTATE[28000] [1045] Access denied for user 'adminu3mnypM'@'localhost' (using password: YES)
+Request URL: /users/login
+Stack Trace:
+#0 /vagrant/app/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(48): PDO->__construct('mysql:host=127....', 'adminu3mnypM', 'nvy834_PBzh4', Array)
+#1 /vagrant/app/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(89): Cake\Database\Driver\Mysql->_connect('mysql:host=127....', Array)
+#2 /vagrant/app/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /vagrant/app/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(62): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /vagrant/app/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(51): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /vagrant/app/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /vagrant/app/vendor/cakephp/cakephp/src/Database/Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /vagrant/app/vendor/cakephp/cakephp/src/ORM/Table.php(422): Cake\Database\Connection->schemaCollection()
+#8 /vagrant/app/vendor/cakephp/cakephp/src/ORM/Query.php(163): Cake\ORM\Table->schema()
+#9 /vagrant/app/vendor/cakephp/cakephp/src/ORM/Query.php(121): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\UsersTable))
+#10 /vagrant/app/vendor/cakephp/cakephp/src/ORM/Table.php(1228): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\UsersTable))
+#11 /vagrant/app/vendor/cakephp/cakephp/src/ORM/Table.php(931): Cake\ORM\Table->query()
+#12 /vagrant/app/vendor/cakephp/cakephp/src/Auth/BaseAuthenticate.php(147): Cake\ORM\Table->find('all', Array)
+#13 /vagrant/app/vendor/cakephp/cakephp/src/Auth/BaseAuthenticate.php(105): Cake\Auth\BaseAuthenticate->_query('cdntok')
+#14 /vagrant/app/vendor/cakephp/cakephp/src/Auth/FormAuthenticate.php(77): Cake\Auth\BaseAuthenticate->_findUser('cdntok', 'fucky0u2')
+#15 /vagrant/app/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(764): Cake\Auth\FormAuthenticate->authenticate(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 /vagrant/app/src/Controller/UsersController.php(113): Cake\Controller\Component\AuthComponent->identify()
+#17 [internal function]: App\Controller\UsersController->login()
+#18 /vagrant/app/vendor/cakephp/cakephp/src/Controller/Controller.php(416): call_user_func_array(Array, Array)
+#19 /vagrant/app/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#20 /vagrant/app/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#21 /vagrant/app/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#22 {main}
+
+
+2016-05-09 17:07:16 Error: [PDOException] SQLSTATE[28000] [1045] Access denied for user 'adminu3mnypM'@'localhost' (using password: YES)
+Request URL: /users/add
+Stack Trace:
+#0 /vagrant/app/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(48): PDO->__construct('mysql:host=127....', 'adminu3mnypM', 'nvy834_PBzh4', Array)
+#1 /vagrant/app/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(89): Cake\Database\Driver\Mysql->_connect('mysql:host=127....', Array)
+#2 /vagrant/app/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /vagrant/app/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(62): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /vagrant/app/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(51): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /vagrant/app/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /vagrant/app/vendor/cakephp/cakephp/src/Database/Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /vagrant/app/vendor/cakephp/cakephp/src/ORM/Table.php(422): Cake\Database\Connection->schemaCollection()
+#8 /vagrant/app/vendor/cakephp/cakephp/src/View/Form/EntityContext.php(461): Cake\ORM\Table->schema()
+#9 /vagrant/app/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1176): Cake\View\Form\EntityContext->type('email')
+#10 /vagrant/app/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1148): Cake\View\Helper\FormHelper->_inputType('email', Array)
+#11 /vagrant/app/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1006): Cake\View\Helper\FormHelper->_parseOptions('email', Array)
+#12 /vagrant/app/src/Template/Users/add.ctp(14): Cake\View\Helper\FormHelper->input('email')
+#13 /vagrant/app/vendor/cakephp/cakephp/src/View/View.php(970): include('/vagrant/app/sr...')
+#14 /vagrant/app/vendor/cakephp/cakephp/src/View/View.php(930): Cake\View\View->_evaluate('/vagrant/app/sr...', Array)
+#15 /vagrant/app/vendor/cakephp/cakephp/src/View/View.php(578): Cake\View\View->_render('/vagrant/app/sr...')
+#16 /vagrant/app/vendor/cakephp/cakephp/src/Controller/Controller.php(598): Cake\View\View->render(NULL, NULL)
+#17 /vagrant/app/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#18 /vagrant/app/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#19 /vagrant/app/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2016-05-22 00:34:08 Error: [PDOException] SQLSTATE[28000] [1045] Access denied for user 'adminu3mnypM'@'localhost' (using password: YES)
+Request URL: /users/add
+Stack Trace:
+#0 /vagrant/app/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(48): PDO->__construct('mysql:host=127....', 'adminu3mnypM', 'nvy834_PBzh4', Array)
+#1 /vagrant/app/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(89): Cake\Database\Driver\Mysql->_connect('mysql:host=127....', Array)
+#2 /vagrant/app/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /vagrant/app/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(62): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /vagrant/app/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(51): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /vagrant/app/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /vagrant/app/vendor/cakephp/cakephp/src/Database/Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /vagrant/app/vendor/cakephp/cakephp/src/ORM/Table.php(422): Cake\Database\Connection->schemaCollection()
+#8 /vagrant/app/vendor/cakephp/cakephp/src/View/Form/EntityContext.php(461): Cake\ORM\Table->schema()
+#9 /vagrant/app/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1176): Cake\View\Form\EntityContext->type('email')
+#10 /vagrant/app/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1148): Cake\View\Helper\FormHelper->_inputType('email', Array)
+#11 /vagrant/app/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1006): Cake\View\Helper\FormHelper->_parseOptions('email', Array)
+#12 /vagrant/app/src/Template/Users/add.ctp(14): Cake\View\Helper\FormHelper->input('email')
+#13 /vagrant/app/vendor/cakephp/cakephp/src/View/View.php(970): include('/vagrant/app/sr...')
+#14 /vagrant/app/vendor/cakephp/cakephp/src/View/View.php(930): Cake\View\View->_evaluate('/vagrant/app/sr...', Array)
+#15 /vagrant/app/vendor/cakephp/cakephp/src/View/View.php(578): Cake\View\View->_render('/vagrant/app/sr...')
+#16 /vagrant/app/vendor/cakephp/cakephp/src/Controller/Controller.php(598): Cake\View\View->render(NULL, NULL)
+#17 /vagrant/app/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#18 /vagrant/app/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#19 /vagrant/app/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
